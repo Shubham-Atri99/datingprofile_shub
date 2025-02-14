@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: black;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.box{
+    position: relative;
+    background-color:rgb(159, 152, 152);
+    width: 60vw;
+    height: 50vh;
+    top: 150px;
+    -webkit-box-shadow: 3px 3px 5px 6px #554d4d; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+.maintext{
+    font-weight: 900;
+    font-size: 50px;
+}
+.maintext2{
+    font-size: 20px;
+    font-style: italic;
+}
+.introhead{
+   color: black;
+   padding: 40px;
+   text-align: center;
+}
+.seperation{
+    background-color: white;
+    
+    height: 150px;
+}
+.intro{
+    display: flex;
+    border: 2px solid black;
+    width: 390px;
+    height: 600px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(189, 182, 182);
+    -webkit-box-shadow: 3px 3px 5px 6px #a3a0a0; 
+    padding: 40px;
+    border-radius: 20px;
+}
+.introimage{
+    padding: 20px;
+    border-radius: 2px;
+    
+
+}
+.capsules{
+    padding: 5px;
+}
+.introcontent h2{
+    padding: 10px;
+    margin: 2px;
+    font-size: 30px;
+}
+.introcontent p{
+    padding: 10px;
+    font-size: 20px;
+
+}
+.reason{
+    padding: 30px;
+    margin-top: 20px;
+    text-align-last: center;
+    font-size: 50px;
+}
+.reasons{
+    display: flex;
+    gap: 15px;
+    pad: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.moreReasons{
+    padding: 40px;
+}
+.box11{
+    border: 2px white solid;
+    width: 420px;
+    height: 480px;
+    flex: 0 0 auto;
+    background-color: #2D2D2D;
+     border-radius: 9px;
+     -webkit-box-shadow: 3px 3px 5px 6px #a3a0a0; 
+
+}
+.heading1{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 60px;
+    padding: 30px;
+}
+.something{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.h{
+color: white;
+font-weight: 900;
+font-size: 33px;
+padding: 5px;
+}
+.l{
+    color: white;
+
+font-size: 20px;
+padding: 5px;
+}
+.heading2{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-left: 110px;
+    padding: 100px;
+    text-align: center;
+
+}
+.contain {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.box33 {
+    width: 80%;
+    height:150px;
+    background-color: #2D2D2D;
+    border-radius: 5px;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    -webkit-box-shadow: 3px 3px 5px 6px #a3a0a0; 
+
+}
+.text{
+    padding: 25px;
+    font-size: 25px;
+}
+.frequently{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.socialheading{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-left: 110px;
+    padding: 80px;
+    text-align: center;
+
+}
+.instaicon ion-icon {
+    font-size: 50px; /* Adjust the size as needed */
+    color: #E4405F; /* Optional: Instagram pink color */
+}
+.instauser{
+    font-size: 30px;
+}
+.socialsss{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.instauser{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.redditicon ion-icon{
+font-size: 50px;
+color: rgb(240, 70, 23);
+}
+.gamingicon ion-icon{
+   font-size: 50px;
+    color: rgb(80, 113, 26);
+}
+.socialicon ion-icon {
+    transition: color 0.2s;
+     
+    color: #E4405F; 
+}
+
+.socialicon:hover ion-icon {
+    color: #2D2D2D; 
+}
+.inputs{
+    margin-top: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+   
+    align-items: center;
+    justify-content: center;
+}
+.inputtext{
+    font-size: 30px;
+}
+.inputtext2{
+    font-size: 20px;
+    font-style: italic;
+}
+.inputid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-field {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.getstarted {
+    background-color: black;
+    width: 150px;
+    height: 45px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.getstarted:hover {
+    background-color: grey;
+}
+.italic{
+    font-style: italic;
+    color: white;
+}
+.introvideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    width: 100%;
+}
+
+.introvideo video {
+    width: 100%; 
+    max-width: 400px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.drag img{
+    width: 350px;
+    height: 280px;
+    padding: 2px;
+    margin: auto;
+}
+.outro{
+    width: 60vw;
+    
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 3px 3px 5px 6px #4f4d4d; 
+    background-color: rgb(159, 152, 152);;
+}
+.headingoutro span {
+    font-weight: 900;
+    padding: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: inline-block; 
+}
+.paraoutro p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.outrovideo video{
+   width: 400px;
+    height: 600px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+
